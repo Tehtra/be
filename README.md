@@ -4,6 +4,8 @@ pada folder sql dan postman ada 1. database article
 4. json postman untuk import di dalam postman
 5. postmantest.html untuk bikin fork postman sendiri
 
+untuk pemanggilan postman jalankan dulu filenya local lalu bisa menggunakan http://127.0.0.1:8000/api/posts
+
 file db_create_article.py adalah file untuk pembuatan database article menggunakan python, database yang di buat masih database kosong karena di minta pembuatan tabel pada database secara manual.
 
 untuk pemanggilan API di laravel bisa di cek di route/API
