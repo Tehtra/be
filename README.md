@@ -8,7 +8,9 @@ file db_create_article.py adalah file untuk pembuatan database article menggunak
 
 untuk pemanggilan API di laravel bisa di cek di route/API
 untuk controller ada di App\Http\Controllers\Api\PostsController, di controller juga terdapat validasi minimun karakter dan status yang hanya bisa draft,publish dan thrash
+
 untuk deklarasi dan pemanggilan database json ada di App\Http\Resources\PostsResource
+
 untuk models ada di App\Models\Posts
 
 karena env. pada laravel defaultnya tidak terupload ke git gunakan env.example dan hilangkan tulisan example.
