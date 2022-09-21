@@ -11,6 +11,7 @@ untuk controller ada di App\Http\Controllers\Api\PostsController, di controller 
 untuk deklarasi dan pemanggilan database json ada di App\Http\Resources\PostsResource
 untuk models ada di App\Models\Posts
 
+karena env. pada laravel defaultnya tidak terupload ke git gunakan env.example dan hilangkan tulisan example.
 untuk setting env. 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
