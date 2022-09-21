@@ -63,9 +63,13 @@ class PostsController extends Controller
      * @param  \App\Models\Posts  $posts
      * @return \Illuminate\Http\Response
      */
-    public function show(Posts $posts)
+    public function show($id)
     {
-        //
+        $posts = Posts::find($id);
+        if (is_null($posts)) {
+            return response()->json('Data not found', 404); 
+        }
+        return response()->json([new PostsResource($posts)]);
     }
 
     /**
